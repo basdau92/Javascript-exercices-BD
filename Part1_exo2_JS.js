@@ -4,4 +4,4 @@ let bol = true;
 
 console.log(bol);
 
-alert("Ma var bol est vraie");
+alert("Ma variable bol est vraie");

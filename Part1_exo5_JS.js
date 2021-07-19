@@ -2,6 +2,6 @@
 
 let result = prompt("Saisissez votre prénom:", "Ex: Paul");
 
-if(result != null)  {
+if(result)  {
     alert("Bonjour " + result);
 }
