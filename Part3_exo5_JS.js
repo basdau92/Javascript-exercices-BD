@@ -5,6 +5,9 @@
 
 document.addEventListener('click', function(e) {
 
+    // e.preventDefault() permet de stopper l'évènement au clic du "submit"
+    e.preventDefault(); 
+
     // j'initialise quatre variables locales : 
     // deux stockant le ciblage des id de mes inputs et récupèrant les valeurs saisies dans mes inputs avec 'value';
     // une stockant le ciblage des id de mon bouton de la span dans mon paragraphe pour l'affichage du résultat;
