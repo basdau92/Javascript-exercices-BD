@@ -1,0 +1,9 @@
+#myInput {
+    border: 2px solid #FF0000 ;
+    outline: none;
+}
+
+#myInput:focus {
+    border: 2px solid #00FF00;
+    outline: none;
+}

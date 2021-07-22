@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Part3_exo5_JS.css">
+    <title>Part 3 Exercice 4 : Formulaire bordure couleur</title>
+</head>
+<body>
+    <h1 class="elem_center">Calculateur hypothénuse d'un triangle rectangle</h1>
+
+        <form class="elem_center" onsubmit="return false"> 
+            <!-- onsubmit="return false" permet de bloquer le rechargement de la page au clic du submit-->
+
+            <div class="form_css">
+                <label for="oppose">Valeur côté opposé (cm) :
+                    <input id="coteOpp" class="elem_center" name="oppose" type="text" placeholder="ex: 5" value="">
+                </label>
+            </div>
+            <div class="form_css">
+                <label for="adjacent">Valeur côté adjacent (cm) :
+                    <input id="coteAdja" class="elem_center" name="adjacent" type="text" placeholder="ex: 10" value="">
+                </label> 
+            </div>
+            <div class="form_css">
+                <button type="submit">Calculer</button>
+            </div>
+        </form>
+
+        <div>
+            <p class="elem_center">L'hypothénuse de mon triangle rectangle vaut: <span id="paraAffiche"></span> cm</p>
+        </div>
+    
+    <script src="Part3_exo5_JS.js"></script>
+</body>
+</html>
+
+    

@@ -1,0 +1,37 @@
+h1 {
+    font-size: 1.5rem;
+}
+
+.elem_center {
+    text-align: center;
+}
+
+.form_css {
+    display: block;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #0000FF;
+}
+
+button{
+    color: #00FF00;
+    font-weight: bold;
+}
+
+p{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+span {
+    color: #FF0000;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+    

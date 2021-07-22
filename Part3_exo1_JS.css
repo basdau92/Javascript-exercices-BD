@@ -1,0 +1,8 @@
+#madsBiere{
+    height: 102px;
+    width: 136px;
+}
+
+.larger{
+    transform: scale(2.5);
+}
